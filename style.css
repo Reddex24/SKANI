@@ -1,0 +1,139 @@
+/* Main */
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: aliceblue;
+}
+
+@media (max-width: 768px) {
+  div {
+    max-width: 100%;
+    max-height: auto;
+  }}
+
+.hero {
+  height: 90vh;
+  width: 100%;
+  background-image: url(images/Hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+
+
+  margin-top: 100px;
+  padding-top: 50px;
+
+}
+
+.herotext {
+  color: rgb(232, 232, 232) !important;
+  font-weight: 1000;
+}
+
+
+.material-symbols-outlined {
+  color: black;
+}
+
+  
+
+/* Galerija*/
+
+.galerija {
+
+  width: 440px;
+  max-height: 500px;
+ 
+}
+
+.btn{
+color: black;
+background-color: rgb(232, 232, 232);
+
+}
+.btn:hover{
+  border-radius: 5px;
+  border-color: black;
+  background-color: rgb(232, 232, 232);
+  color: black;
+}
+
+  
+
+.img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  margin: 20px;
+  padding: 20px;
+}
+
+.carousell {
+  width: 100%;
+}
+
+.carousell img {
+  border-radius: 5%;
+}
+
+.gale {
+  width: 100px;
+  height: 40px;
+  border-radius: 15%;
+  background-color: rgb(232, 232, 232)
+}
+.gale:hover{
+  border-radius: 15%;
+  background-color: aliceblue;
+}
+
+nav {
+  padding: none;
+  width: 100%;
+}
+
+/* Skani 50+ */
+.udruga {
+
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+.clanovi {
+  border-radius: 3%;
+}
+
+/* FOOTER */
+#Kont {
+  width: 99%;
+  margin: auto;
+  padding: auto;
+
+}
+
+.mob {
+  width: 12px;
+  height: 12px;
+}
+
+.footer div {
+  width: 99%;
+
+}
+
+/* ABOUT ME */
+
+.texx {
+  width: 700px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* NAGRADE */
+#nagrade {
+
+  list-style: none;
+  padding-top: 150px;
+  margin-bottom: auto;
+  width: 99%;
+}
